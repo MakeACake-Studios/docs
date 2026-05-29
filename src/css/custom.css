@@ -1,0 +1,74 @@
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #b80c09;
+  --ifm-color-primary-dark: #a60b08;
+  --ifm-color-primary-darker: #9c0a08;
+  --ifm-color-primary-darkest: #810806;
+  --ifm-color-primary-light: #ca0d0a;
+  --ifm-color-primary-lighter: #d31512;
+  --ifm-color-primary-lightest: #e2312e;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #d15233;
+  --ifm-color-primary-dark: #bc4a2e;
+  --ifm-color-primary-darker: #b2462b;
+  --ifm-color-primary-darkest: #923924;
+  --ifm-color-primary-light: #d66347;
+  --ifm-color-primary-lighter: #d96c51;
+  --ifm-color-primary-lightest: #e18670;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+img {
+  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+}
+
+hr {
+  margin: 2rem 0;
+  background-color: var(--ifm-color-emphasis-200);
+}
+
+.navbar__logo,
+.navbar__brand img {
+  height: 35px !important;
+  max-height: 35px !important;
+  width: auto !important;
+}
+
+.markdown table {
+  display: table !important;
+  width: 100% !important;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 14px;
+}
+
+.markdown tr {
+  border-top: 0;
+}
+
+.markdown th,
+.markdown td {
+  border: 0;
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+  border-left: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.markdown tr > :first-child {
+  border-left: 0;
+}
+
+.markdown table > :is(thead, tbody, tfoot):first-child > tr:first-child > :is(th, td) {
+  border-top: 0;
+}
+
+.video-container {
+  border-radius: 10px;
+}
