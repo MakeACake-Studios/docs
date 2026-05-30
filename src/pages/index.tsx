@@ -11,11 +11,11 @@ function HomepageHeader() {
     return (
         <header className={clsx('hero', styles.heroBanner)}>
             <div className="container">
-                <img
-                    src="/img/logo-dev-new.png"
-                    alt="MakeABuilders"
-                    style={{maxHeight: '150px', marginBottom: '1.5rem'}}
-                />
+                {/*<img*/}
+                {/*    src="/img/logo.png"*/}
+                {/*    alt="MakeABuilders"*/}
+                {/*    style={{maxHeight: '150px', marginBottom: '1.5rem'}}*/}
+                {/*/>*/}
                 <Heading as="h1" className={clsx('hero__title', styles.heroTitle)}>
                     MakeABuilders
                 </Heading>
