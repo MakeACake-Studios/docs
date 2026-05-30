@@ -107,7 +107,6 @@ const config: Config = {
       ],
     },
     footer: {
-      style: 'dark',
       links: [],
       copyright: `2026 © MakeACake Studios.`,
     },

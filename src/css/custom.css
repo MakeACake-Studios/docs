@@ -7,6 +7,11 @@
   --ifm-color-primary-light: #ca0d0a;
   --ifm-color-primary-lighter: #d31512;
   --ifm-color-primary-lightest: #e2312e;
+  --ifm-footer-color: #5b514a;
+  --ifm-footer-title-color: #2d211b;
+  --ifm-footer-link-color: #b80c09;
+  --ifm-footer-link-hover-color: #8f1a08;
+  --ifm-footer-background-color: #ecefed;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
@@ -20,6 +25,11 @@
   --ifm-color-primary-light: #d66347;
   --ifm-color-primary-lighter: #d96c51;
   --ifm-color-primary-lightest: #e18670;
+  --ifm-footer-color: #c0bbb6;
+  --ifm-footer-title-color: #e5e7e6;
+  --ifm-footer-link-color: #d15233;
+  --ifm-footer-link-hover-color: #e28a70;
+  --ifm-footer-background-color: #242526;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
