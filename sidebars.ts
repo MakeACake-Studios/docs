@@ -15,6 +15,8 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
 const sidebars: SidebarsConfig = {
   globalSidebar: [
     'start',
+    'rules',
+      'donations',
     {
       type: 'category',
       label: 'Фишки',
@@ -47,15 +49,13 @@ const sidebars: SidebarsConfig = {
         'feature/nightskip',
         'feature/sand',
         'feature/slate-momentum',
-        'feature/stattrack',
         'feature/status',
         'feature/streak',
         'feature/streamer-mode',
         'feature/toggles',
         'feature/tree',
       ],
-    },
-    'rules'
+    }
   ],
 };
 
